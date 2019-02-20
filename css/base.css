@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/* 倒三角 */
+
+.triangle-down {
+    border: 5px solid black;
+    border-color: #666666 transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+}
+
+
+/* 单三角 */
+
+.triangle-up-s {
+    position: relative;
+}
+
+.triangle-up-s::before,
+.triangle-up-s::after {
+    content: "";
+    border: 5px solid #f1f1f1;
+    border-color: transparent transparent #f1f1f1;
+    border-style: dashed dashed solid;
+    position: absolute;
+    left: 80%;
+    top: -10px;
+}
+
+.triangle-up-s::after {
+    border-color: transparent transparent #fff;
+    top: -8px;
+}
+
+
+/* 闭合浮动 */
+
+.clearfix:before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+/* 弹出层的背景色为白色 */
+
+.cover {
+    background: #fff;
+}

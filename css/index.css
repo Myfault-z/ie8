@@ -1,0 +1,487 @@
+@charset "UTF-8";
+body,
+a {
+    color: #666;
+    font-size: 12px;
+}
+
+
+/* S 头部css */
+
+.z-header {
+    width: 100%;
+}
+
+.top-nav {
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 1190px;
+    height: 73px;
+    line-height: 73px;
+}
+
+
+/* s logo */
+
+.nav-logo {
+    margin-top: -5px;
+    float: left;
+}
+
+.nav-logo h1 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+/* e logo */
+
+
+/* s 用户 */
+
+.nav-user {
+    float: right;
+    padding-top: 5px;
+}
+
+.nav-user .icon {
+    display: inline-block;
+    float: right;
+    margin: 18px 0 0 10px;
+}
+
+.nav-user>ul>li {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin: 0 18px 18px 0;
+}
+
+.nav-user .msg-wrap {
+    width: 40px;
+    height: 40px;
+    background: url(../img/消息.png) no-repeat;
+    position: relative;
+    top: 6px;
+    left: 0px;
+}
+
+.nav-user .msg {
+    position: relative;
+    top: -13px;
+    right: -16px;
+    display: inline-block;
+    background: url(../img/未读消息.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    line-height: 27px;
+    padding-left: 11px;
+}
+
+.nav-user .msg-num {
+    color: #fff;
+}
+
+.nav-user .avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.username {
+    display: inline;
+    /* position: relative; */
+}
+
+.user {
+    position: relative;
+}
+
+.kehuduan {
+    position: relative;
+}
+
+
+/* s 弹出菜单 */
+
+.user-menu-cover {
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+
+.user-menu-cover li a {
+    display: block;
+    border: 1px solid #f1f1f1;
+    width: 124px;
+    height: 40px;
+    text-align: center;
+    background: #fff;
+}
+
+.user-menu-cover li a:hover {
+    background: #ccc;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.kehuduan-menu-cover {
+    display: none;
+    position: absolute;
+    left: -54px;
+    top: 40px;
+    z-index: 999;
+}
+
+.kehuduan-menu-cover li a {
+    display: block;
+    border: 1px solid #f1f1f1;
+    width: 124px;
+    height: 40px;
+    text-align: center;
+    background: #fff;
+}
+
+.kehuduan-menu-cover li a:hover {
+    background: #ccc;
+    color: #fff;
+    border-color: transparent transparent #ccc;
+    transition: all 0.5s;
+}
+
+.user:hover .user-menu-cover {
+    display: block;
+}
+
+.kehuduan:hover .kehuduan-menu-cover {
+    display: block;
+}
+
+
+/* e 弹出菜单 */
+
+
+/* e 用户 */
+
+
+/* S 搜索框 */
+
+.nav-search {
+    margin: 0 265px 0 357px;
+    line-height: 30px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.nav-search .music-sel {
+    position: relative;
+    display: inline-block;
+    width: 66px;
+    height: 30px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    float: left;
+}
+
+.nav-search input {
+    /* position: relative; */
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 1em;
+    border: 1px solid #e0e0e0;
+    float: left;
+}
+
+.nav-search .ico-serach {
+    position: absolute;
+    left: 447px;
+    top: 23px;
+    display: inline-block;
+    background: url(https://img.icons8.com/ios/24/000000/search-filled.png) no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.z-header .nav-search .ico-sel {
+    float: right;
+    margin: 14px 5px 14px -12px;
+}
+
+.music-menu {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top: 30;
+    left: -1px;
+}
+
+.music-menu li {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    width: 66px;
+}
+
+.music-menu li a {
+    display: block;
+}
+
+.music-menu li a:hover {
+    color: #fff;
+    background: #ccc;
+    transition: all 0.5s;
+}
+
+
+/* 弹出层 */
+
+.music-sel:hover .music-menu {
+    display: block;
+}
+
+
+/* e 搜索框 */
+
+.z-header .site-nav-wrap {
+    margin: 0 auto;
+    height: 60px;
+    width: 1190px;
+    /* border: 1px solid black; */
+}
+
+
+/* E 头部css */
+
+
+/* s  主导航 */
+
+.site-nav {
+    background: #3598db;
+    font-size: 16px;
+}
+
+.site-nav a {
+    color: #fff;
+}
+
+.site-nav li {
+    color: #fff;
+}
+
+.site-nav-wrap {
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    width: 1190px;
+    /* border: 1px solid #ccc; */
+}
+
+.main-nav,
+.menu-item {
+    float: left;
+}
+
+.menu-item a {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 22px;
+    border-radius: 3px;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+
+.menu-item .cur {
+    background: #2db0f9;
+}
+
+.menu-item a:hover {
+    background: #2db0f9;
+    transition: all 0.5s;
+}
+
+.aside-nav {
+    float: right;
+    background: #e7594d;
+}
+
+.aside-nav .aside-nav-list li {
+    float: left;
+    margin-left: 20px;
+}
+
+.aside-nav-list a {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 22px;
+    border-radius: 3px;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+
+.aside-nav-list a:hover {
+    background: #e79;
+    transition: all 0.5s;
+}
+
+
+/* 右侧div */
+
+.bg-red-wrap {
+    position: relative;
+    margin-left: 1190px;
+}
+
+.bg-red {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 60px;
+    background: #e7594d;
+}
+
+
+/* e  主导航 */
+
+
+/* s  banner */
+
+.z-banner {
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    background: #3b3b3b;
+    position: relative;
+}
+
+.z-banner>a {
+    display: block;
+    width: 1190px;
+    margin: 0 auto;
+    box-shadow: 0px 5px 20px black;
+}
+
+.slide-bar {
+    position: absolute;
+    left: 50%;
+    margin-left: -45px;
+    top: 376px;
+    width: 90px;
+    height: 14px;
+    z-index: 100;
+}
+
+.slide-bar a {
+    display: inline-block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-right: 16px;
+    border: 1px solid #3b3b3b;
+    border-radius: 50%;
+    background: #3b3b3b;
+}
+
+.slide-bar a:hover {
+    background: #fff;
+    transition: all 0.5s;
+}
+
+.slide-bar .cur {
+    background: #fff;
+}
+
+
+/* e  banner */
+
+
+/* s main */
+
+.z-main .music-list {
+    width: 1190px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.z-main .musicer-list {
+    width: 1190px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.p-module-head {
+    font-size: 22px;
+    height: 22px;
+    color: #1a1a1a;
+}
+
+.p-module-title {
+    float: left;
+    padding-left: 18px;
+    height: 22px;
+    line-height: 22px;
+    border-left: 7px solid #2bd0f9;
+}
+
+.p-module-more {
+    float: right;
+    line-height: 22px;
+    font-size: 12px;
+    color: #5da7df;
+}
+
+.p-module-body {
+    padding-top: 30px;
+}
+
+.p-list-item {
+    float: left;
+    margin: 0 14px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.p-img img {
+    width: 204px;
+    height: 204px;
+    border: 2px solid #3b3b3b;
+    /* border-radius: 10px; */
+    transition: all 0.5s;
+}
+
+.p-img img:hover {
+    box-shadow: 0 5px 10px #3b3b3b;
+    border: 2px solid #fff;
+    transition: all 0.5s;
+}
+
+.p-name a {
+    display: inline-block;
+    width: 204px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* e main */
+
+
+/* s footer */
+
+.z-footer {
+    width: 100%;
+    height: 140px;
+    line-height: 140px;
+    margin-top: 40px;
+    background: #373a43;
+    /* padding-top: 44px; */
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* e footer */
